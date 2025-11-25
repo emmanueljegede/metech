@@ -116,7 +116,7 @@ img{max-width: 100%;
                   width:320px;
                 height: 325px;}}
 
-                  @media screen and (max-width:480px){.firstimg{transform:translateY(-260px) translateX(200px);
+                  @media screen and (max-width:480px){.firstimg{transform:translateY(-250px) translateX(200px);
                   width:350px;
                 height: 315px;
                  mask-image: linear-gradient(to left, black 10%,transparent 100%);}}
