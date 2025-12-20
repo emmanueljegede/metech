@@ -1,7 +1,11 @@
   body{margin: 0;
+      background-color: rgba(160, 145, 152, 0.747);
+      
                overflow-x: hidden;}
          .firstsection{box-shadow:0px 0px 30px rgba(0,0,0,1);
-                       height: 700px;}
+                       height: 700px;
+                       color: whitesmoke;
+                      background-color: rgb(35, 44, 56);;}
                         @media screen and (max-width:600px){.firstsection{height: 400px;}}
                          @media screen and (max-width:480px){.firstsection{height: 350px;}}
 
@@ -116,7 +120,7 @@ img{max-width: 100%;
                   width:320px;
                 height: 325px;}}
 
-                  @media screen and (max-width:480px){.firstimg{transform:translateY(-250px) translateX(170px);
+                  @media screen and (max-width:480px){.firstimg{transform:translateY(-260px) translateX(200px);
                   width:350px;
                 height: 315px;
                  mask-image: linear-gradient(to left, black 10%,transparent 100%);}}
@@ -135,7 +139,7 @@ img{max-width: 100%;
         justify-content: space-around;
        display: flex;
        flex-direction: row;
-        border: 2px solid lightblue;
+        border: 2px solid  rgb(35, 44, 56);;
        z-index: 20;    
        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }  
@@ -185,7 +189,7 @@ img{max-width: 100%;
             margin-left: 5%;
             font-variant: small-caps ;
             font-size: 30px;
-             border: 2px solid lightblue;}
+             border: 2px solid  rgb(35, 44, 56);;}
             @media screen and (max-width:600px){.intro{font-size: 20px;
              border-radius: 22px;}}
               @media screen and (max-width:480px){.intro{font-size: 17px;
